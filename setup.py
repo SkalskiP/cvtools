@@ -18,7 +18,15 @@ def load_install_requirements(path: pathlib.Path) -> List[str]:
 setuptools.setup(
     name="cvtools",
     version='1.0.0',
-    packages=setuptools.find_packages(),
+    python_requires=">=3.7",
+    description="Useful Computer Vision utils.",
+    long_description=README,
+    long_description_content_type="text/markdown",
+    url="https://github.com/SkalskiP/cvtools",
+    author="Piotr Skalski",
+    author_email="piotr.skalski92@gmail.com",
+    license='MIT',
+    packages=['cvtools'],
     include_package_data=True,
     install_requires=load_install_requirements(HERE / "requirements.txt"),
     extras_require={

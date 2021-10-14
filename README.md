@@ -1,6 +1,6 @@
-# cvtools
+<h1 align="center">🛠️ cvtools</h1>
 
-## 🚀 Install
+## 🚀 Installation
 
 ```console
 # clone project repository
@@ -11,5 +11,6 @@ cd cvtools
 virtualenv venv
 source venv/bin/activate
 # install project
-python setup.py install
+pip install --upgrade pip
+pip install -e ".[test]"
 ```
