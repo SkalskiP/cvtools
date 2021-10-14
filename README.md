@@ -19,6 +19,8 @@ pip install -e ".[test]"
 
 ### `cvtools.scripts.record`
 
+Allows you to capture webcam stream and save frames as separate images in specified directory.
+
 | **argument**            | **mandatory** | **type** | **description**                                       |
 |:-----------------------:|:-------------:|:--------:|:------------------------------------------------------|
 | `device-id`             | ✓             | `int`    | specifies device id of webcam you would like to use   |
