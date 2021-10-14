@@ -14,3 +14,13 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -e ".[test]"
 ```
+
+## 📜 Scripts
+
+### `cvtools.scripts.record`
+
+| **argument**            | **mandatory** | **type** | **description**                                       |
+|:-----------------------:|:-------------:|:--------:|:------------------------------------------------------|
+| `device-id`             | ✓             | `int`    | specifies device id of webcam you would like to use   |
+| `frame_interval`        | ✗             | `int`    | defines frequency of saving frames                    |
+| `target_directory_path` | ✓             | `str`    | specifies target directory where frames will be saved |
